@@ -5,7 +5,7 @@
 {% block content %}
 <div class="container mt-5">
     <h2 class="mb-4">Uploaded Files</h2>
-    <a href="{% url 'upload_file' %}" class="btn btn-primary mb-3">Upload New File</a>
+    <button href="{% url 'upload_file' %}" class="btn btn-primary mb-3">Upload New File</button>
 
     {% if files %}
         <table class="table table-bordered table-striped">
@@ -21,7 +21,7 @@
                 <tr>
                     <td>{{ file.id }}</td>
                     <td>{{ file.title }}</td>
-                    <td><a href="{{ file.file.url }}" download>Download</a></td>
+                    <td><button href="{{ file.file.url }}" download>Download</button></td>
                 </tr>
                 {% endfor %}
             </tbody>
