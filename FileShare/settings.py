@@ -127,5 +127,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGIN_URL = 'login'
 
-MEDIA_ROOT = '/mnt/ssd/media/'
+MEDIA_ROOT = '/mnt/ssd/uploads/'
 MEDIA_URL = '/media/'
