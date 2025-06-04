@@ -5,7 +5,7 @@
 {% block content %}
 <div class="container mt-5">
     <h2 class="mb-4">Uploaded Files</h2>
-    <button href="{% url 'upload_file' %}" class="btn btn-primary mb-3">Upload New File</button>
+    <button onclick="window.location.href='{% url 'upload_file' %}'" class="btn btn-primary mb-3">Upload New File</button>
 
     {% if files %}
         <table class="table table-bordered table-striped">

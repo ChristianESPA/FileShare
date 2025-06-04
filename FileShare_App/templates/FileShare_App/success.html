@@ -9,6 +9,7 @@
     <div class="alert alert-success">
         File uploaded successfully!
     </div>
+    <button onclick="window.location.href='{% url 'home' %}'" class="btn btn-primary">Back</button>
     <a href="{% url 'upload_file' %}" class="btn btn-secondary">Upload Another</a>
 </div>
 </body>
