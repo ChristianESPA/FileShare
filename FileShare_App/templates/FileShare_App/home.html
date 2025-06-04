@@ -21,7 +21,7 @@
                 <tr>
                     <td>{{ file.id }}</td>
                     <td>{{ file.title }}</td>
-                    <td><button href="{{ file.file.url }}" download>Download</button></td>
+                    <td><a href="{{ file.file.url }}" download>Download</a></td>
                 </tr>
                 {% endfor %}
             </tbody>
