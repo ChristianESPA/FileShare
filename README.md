@@ -4,3 +4,7 @@
 #
 # For example:
 # $ sudo chmod -R username:username /mnt/ssd
+
+# TODO
+# Put login page
+# Add delete function
